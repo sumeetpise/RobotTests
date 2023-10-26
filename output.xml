@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231026 14:41:07.114" rpa="false" schemaversion="4">
+<suite id="s1" name="Practice" source="C:\Users\nikit\PycharmProjects\pythonProject\RobotFramework\TestCases\Practice.robot">
+<test id="s1-t1" name="Radio Buttons" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231026 14:41:07.304" level="INFO">Opening browser 'firefox' to base url 'https://www.amazon.com/'.</msg>
+<status status="PASS" starttime="20231026 14:41:07.304" endtime="20231026 14:42:16.913"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231026 14:42:16.914" endtime="20231026 14:42:16.914"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231026 14:42:26.914" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20231026 14:42:16.914" endtime="20231026 14:42:26.914"/>
+</kw>
+<status status="PASS" starttime="20231026 14:41:07.304" endtime="20231026 14:42:26.914"/>
+</test>
+<status status="PASS" starttime="20231026 14:41:07.114" endtime="20231026 14:42:26.914"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Practice">Practice</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
